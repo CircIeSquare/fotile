@@ -1,0 +1,51 @@
+/*banner*/
+.banner{height:550px;width:100%;margin:0 auto;overflow:hidden;background:url("../images/contact_banner_02.png") no-repeat center;}
+.banner .inner{position:relative;z-index:10;}
+.banner .inner .text{color:#fff;z-index:20;}
+.banner .inner .text h3{padding-top:104px;height:83px;line-height:83px;font-size:48px;font-weight:normal;}
+.banner .inner .text h3 span{font-family:Arial;font-weight:bold;color:#ffcf01;padding-right:35px;}
+.banner .inner .text h3 span strong{font-size:90px;font-weight:normal;}
+.banner .inner .text h2{height:83px;line-height:83px;padding-top:18px;;font-size:55px;font-weight:normal;}
+.banner .inner .text p{height:29px;line-height:29px;padding:20px 0 0 29px;font-size:24px;}
+/*top*/
+.top{background:#efefef;}
+.top .inner h2{height:38px;line-height:38px;font-size:30px;text-align:center;padding-top:92px;font-weight:normal;}
+.top .inner h3{height:38px;line-height:38px;font-size:30px;text-align:center;padding-top:15px;font-weight:normal;}
+.top .inner .info{width:512px;height:520px;float:left;background:#fff;padding:0 67px 0 87px;box-shadow:0 0 6px 0 #dedede;margin:48px 0 102px 0;}
+.top .inner .info h2{font-size:36px;height:50px;padding-top:40px;text-align:left;}
+.top .inner .info p{font-size:14px;line-height:20px;padding-top:19px;}
+.top .inner .info .line{height:1px;width:100%;background:#ffcf01;margin-top:41px;}
+.top .inner .info h3{font-size:30px;line-height:43px;padding-top:72px;text-align:left;}
+.top .inner .info span{display:inline-block;width:284px;border-bottom:1px solid #ffcf01;text-align:center;}
+.top .inner .info a{margin-top:54px;display:block;width:110px;height:36px;background:#272727;color:#fff;text-align:center;line-height:36px;font-size:20px;border-radius:12px;}
+.top .inner .contact{width:379px;padding:0 41px 0 80px;height:520px;float:right;background:#fff;margin:48px 0 102px 0;box-shadow:0 0 6px 0 #dedede;}
+.top .inner .contact h2{height:50px;line-height:50px;font-size:30px;text-align:left;padding-top:40px;}
+.top .inner .contact a{display:inline-block;width:14px;height:14px;border:5px solid #b4b4b4;margin:12px 0 0 26px;float:right;border-radius:50%;}
+.top .inner .contact a:hover{border-color:#ffcf01;}
+.top .inner .contact .active{border-color:#ffcf01;}
+.top .inner .contact ul li{border-bottom:1px solid #ffcf01;}
+.top .inner .contact ul li:last-child{border-bottom:none;}
+.top .inner .contact ul li div{width:50px;margin-top:44px;float:left;}
+.top .inner .contact ul li h4,.top .inner .contact ul li p{height:24px;line-height:24px;font-size:14px;padding-top:44px;}
+.top .inner .contact ul li p{padding:5px 0 45px 0;}
+/*bottom*/
+.bottom .inner .text{border-bottom:1px solid #ffcf01;padding-bottom:41px;}
+.bottom .inner .text dl{padding-top:94px;float:left;}
+.bottom .inner .text dl dt{height:36px;line-height:36px;font-size:24px;padding-bottom:10px;}
+.bottom .inner .text dl dd{height:24px;line-height:24px;font-size:14px;}
+.bottom .inner .text ul{padding-top:94px;float:right;}
+.bottom .inner .text li{float:left;margin:6px 0 0 23px;}
+.bottom .inner .text li a{width:56px;height:56px;display:block;}
+.bottom .inner .text li:nth-child(1) a{background:url("../images/contact_btn1.png") no-repeat;}
+.bottom .inner .text li:nth-child(2) a{background:url("../images/contact_btn2.png") no-repeat;}
+.bottom .inner .text li:nth-child(3) a{width:58px;height:58px;background:url("../images/contact_btn3.png") no-repeat;}
+.bottom .inner .text p{font-size:16px;height:25px;line-height:25px;padding-top:44px;clear:both;}
+.bottom .inner .pic{padding-top:93px;}
+.bottom .inner .pic h3{height:36px;line-height:36px;font-size:24px;}
+.bottom .inner .pic a{font-size:14px;float:right;color:#000;font-weight:normal;display:block;}
+.bottom .inner .pic a img{padding:5px 5px 0 0;}
+.bottom .inner .pic ul{padding-top:27px;}
+.bottom .inner .pic ul li{width:279px;height:184px;margin-right:28px;float:left;}
+.bottom .inner .pic ul li:last-child{margin-right:0;}
+/*map*/
+.map{margin-top:120px;height:439px;background:url("../images/map_07.jpg") no-repeat;overflow:hidden;text-align:center;}

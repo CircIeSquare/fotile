@@ -1,0 +1,59 @@
+.inner{width:1224px;margin:0 auto;}
+/*banner*/
+.banner{height:668px;background:url("../images/products_banner.png") no-repeat;}
+.banner .inner{position:relative;z-index:10;}
+.banner .inner .text{position:absolute;top:175px;left:-15px;width:364px;}
+.banner .inner .text .line{dispaly:inline-block;width:132px;height:5px;background:#e7dc22;float:left;}
+.banner .inner .text h3{clear:left;height:102px;line-height:102px;font-size:48px;font-weight:normal;}
+.banner .inner .text h3 span{font-family:Arial;font-weight:bold;padding-right:35px;font-weight:normal;}
+.banner .inner .text h3 span strong{font-size:90px;}
+.banner .inner .text h2{height:52px;line-height:52px;font-size:48px;font-weight:normal;font-family:"宋体";}
+.banner .inner .text h4{padding-top:29px;line-height:30px;font-size:20px;font-weight:normal;}
+.banner .inner .text p{height:33px;line-height:33px;text-align:right;padding:75px 45px 0 0;font-size:24px;}
+.banner .inner .text p a{width:133px;height:33px;color:#000;padding-left:9px;transition:all 0.4s linear;}
+.banner .inner .text p a:hover{box-shadow:0 0 0 2px #ffff00;}
+.banner .inner .text p a span{padding-left:30px;}
+/*title*/
+.title{height:68px;background:#272726;}
+.title .inner ul{list-style-type:disc;color:#fff;padding:28px 0 0 332px;}
+.title .inner ul li{float:left;line-height:24px;margin:0 6px 0 18px;}
+.title .inner ul li a{color:#fff;}
+.title .inner ul li a:hover{color:#e7dc22;}
+/*sidebar*/
+.main .inner .sidebar{width:296px;float:left;position:relative;margin-top:-68px;}
+.main .inner .sidebar .bg{width:259px;height:521px;position:absolute;top:30px;right:0;border:5px solid #fef001;}
+.main .inner .sidebar ul{background:#424243;height:496px;width:261px;padding-top:39px;color:#fffefe;position:relative;z-index:10;list-style-type:disc;}
+.main .inner .sidebar ul h4,.main .inner .sidebar ul h5{font-weight:normal;}
+.main .inner .sidebar ul li{width:229px;padding:21px 0 0 32px;position:relative;cursor:pointer;}
+.main .inner .sidebar ul li a{color:#f6f5f5;display:block;}
+.main .inner .sidebar ul li h4{height:24px;line-height:24px;font-size:18px;}
+.main .inner .sidebar ul li h5{height:13px;line-height:13px;padding-top:3px;font-size:12px;text-transform:uppercase;}
+.main .inner .sidebar ul li .l{width:4px;height:18px;background:#fef001;position:absolute;left:0;top:33px;opacity:0;transition:all 0.4s linear;}
+.main .inner .sidebar ul li:hover .l{opacity:1;}
+.main .inner .sidebar ul .dt{height:57px;position:relative;background:#fef001;}
+.main .inner .sidebar ul .dt h4{padding-top:5px;}
+.main .inner .sidebar ul .dt .r{float:right;font-size:50px;position:absolute;top:30px;right:27px;}
+.main .inner .sidebar ul .dt:hover a{color:#6b6a69;}
+.main .inner .sidebar ul .dt ul{opacity:0;list-style:none;height:63px;background:#e7dc22;position:absolute;bottom:-63px;left:37px;z-index:10;width:81px;padding:0;text-align:center;oapcity:0;transition:all 1s linear;}
+.main .inner .sidebar ul .dt ul li{width:81px;height:24px;line-height:24px;font-size:12px;padding:3px 0 0 0;}
+.main .inner .sidebar ul .dt ul li a{color:#6f6c6b;}
+.main .inner .sidebar ul .dt ul li a:hover{color:#fff;}
+.main .inner .sidebar ul .dt:hover ul{opacity:1;}
+/*content*/
+.main .inner .content{float:right;width:928px;}
+.main .inner .content ul{padding-top:70px;}
+.main .inner .content ul li{width:460px;height:555px;float:left;margin-left:4px;transition:all 0.4s linear;cursor:pointer;}
+.main .inner .content ul li img{padding:62px 0 0 25px;}
+.main .inner .content ul li h5,.main .inner .content ul li h6{height:24px;line-height:24px;font-weight:normal;font-size:16px;}
+.main .inner .content ul li h5{padding:15px 0 0 25px;}
+.main .inner .content ul li h6{padding:19px 0 0 25px;}
+.main .inner .content ul li a{display:block;width:71px;height:27px;background:url("../images/products_cha_03.png");line-height:27px;text-align:center;color:#000;font-size:16px;margin:21px 0 0 25px;cursor:pointer;}
+.main .inner .content ul li:hover{box-shadow:0 0 11px #bab7b6;}
+.main .inner .content dl{float:right;margin:70px 26px 119px 0;}
+.main .inner .content dl dd{float:left;margin-left:10px;width:30px;height:4px;background:#9c9c98;cursor:pointer;}
+.main .inner .content dl dd:hover{background:#e7dc22;}
+.main .inner .content dl .active{background:#e7dc22;}
+/*footer*/
+.footer{position:relative;border-top:1px dashed #000;z-index:10;}
+.footer:before{content:"";width:100%;height:2px;position:absolute;background:#7b7b79;left:0;top:-1px;z-index:2;}
+
