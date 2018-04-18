@@ -258,7 +258,9 @@
         var IsAndroid = UserAgent.match(/android/i) == "android";
         var IsCE = UserAgent.match(/windows ce/i) == "windows ce";
         var IsWM = UserAgent.match(/windows mobile/i) == "windows mobile";
-        if(IsIpad || IsIphoneOs || IsMidp || IsUc7 || IsUc || IsAndroid || IsCE || IsWM){
+        var IsBlackBerry=UserAgent.match(/blackberry/i) == "blackberry";
+        var ISWindowsPhone=UserAgent.match(/windows phone/i) == "windows phone";
+        if(IsIpad || IsIphoneOs || IsMidp || IsUc7 || IsUc || IsAndroid || IsCE || IsWM || IsBlackBerry || ISWindowsPhone){
             window.location.href="https://sourcecheung.github.io/jxj_mobile";
         }/*else{
             window.location.href="https://sourcecheung.github.io/fotile";
