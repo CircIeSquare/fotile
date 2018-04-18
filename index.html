@@ -249,7 +249,7 @@
 <!--判断手机还是PC-->
 <script>
 (function(){
-        var UserAgent = navigator.userAgent.toLowerCase();
+        /*var UserAgent = navigator.userAgent.toLowerCase();
         var IsIpad = UserAgent.match(/ipad/i) == "ipad";
         var IsIphoneOs = UserAgent.match(/iphone os/i) == "iphone os";
         var IsMidp = UserAgent.match(/midp/i) == "midp";
@@ -262,9 +262,15 @@
         var ISWindowsPhone=UserAgent.match(/windows phone/i) == "windows phone";
         if(IsIpad || IsIphoneOs || IsMidp || IsUc7 || IsUc || IsAndroid || IsCE || IsWM || IsBlackBerry || ISWindowsPhone){
             window.location.href="https://sourcecheung.github.io/jxj_mobile";
-        }/*else{
-            window.location.href="https://sourcecheung.github.io/fotile";
         };*/
+        
+        var ua = navigator.userAgent;
+        if ((ua.match(/(Android|webOS|iPhone|iPad|iPod|BlackBerry|Windows Phone)/i))) {
+            window.location.href="https://sourcecheung.github.io/jxj_mobile";
+        }else{
+            window.location.href="https://sourcecheung.github.io/fotile";
+        };   
+        
     })();
 </script>    
     
