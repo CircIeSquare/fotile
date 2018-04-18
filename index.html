@@ -245,4 +245,25 @@
         </div>
     </div>
 </body>
+
+<!--判断手机还是PC-->
+<script>
+(function(){
+        var UserAgent = navigator.userAgent.toLowerCase();
+        var IsIpad = UserAgent.match(/ipad/i) == "ipad";
+        var IsIphoneOs = UserAgent.match(/iphone os/i) == "iphone os";
+        var IsMidp = UserAgent.match(/midp/i) == "midp";
+        var IsUc7 = UserAgent.match(/rv:1.2.3.4/i) == "rv:1.2.3.4";
+        var IsUc = UserAgent.match(/ucweb/i) == "ucweb";
+        var IsAndroid = UserAgent.match(/android/i) == "android";
+        var IsCE = UserAgent.match(/windows ce/i) == "windows ce";
+        var IsWM = UserAgent.match(/windows mobile/i) == "windows mobile";
+        if(!(IsIpad || IsIphoneOs || IsMidp || IsUc7 || IsUc || IsAndroid || IsCE || IsWM) ){
+            window.location.href="https://sourcecheung.github.io/jxj_mobile";
+        }else{
+            window.location.href="https://sourcecheung.github.io/fotile";
+        };
+    })();
+</script>    
+    
 </html>
